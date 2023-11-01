@@ -6,7 +6,7 @@ from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 
 SPOTIFY_ID = os.environ["Spotify_ClientId"]
 SPOTIFY_SECRET = os.environ["Spotify_ClientSecret"]
-
+#same redirect URI as the one set in spotify settings
 REDIRECT_URI = "http://example.com"
 SCOPE = "playlist-modify-public"
 
